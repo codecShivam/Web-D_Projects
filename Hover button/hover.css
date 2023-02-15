@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+
+button{
+    background: none;
+    color: #f9a85c;
+    letter-spacing: 2px;
+    border: 2px groove;
+    margin: 0 23px;
+    padding: 1em 2em;
+    font-family: helvetica;
+    font-size: 1em ;
+    transition: all 0.34s; /*or we can write seprately them like: color 0.25s , border-color 0.25s, box-shadow 0.25s, transform 0.25s thsi will work same as this*/
+}
+
+button:hover{
+    border-color: #78e6f7;
+    color: white;
+    box-shadow: 0.3em 0.3em 0.3em 0.01em rgb(135, 234, 202);
+    transform: translateY(-0.25em);
+    cursor:  pointer;
+}
+
